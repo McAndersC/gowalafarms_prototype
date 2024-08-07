@@ -28,8 +28,12 @@ const Profile = () => {
         
         <div className={styles.profile}>
            
-            {signedIn ? <SignedIn user={user}></SignedIn> : <SignedOut></SignedOut>}
+            <div className={styles.picture}>
+                {signedIn ? <SignedIn user={user}></SignedIn> : <SignedOut></SignedOut>}
+            </div>
 
+            <div>NAME : {user.name}</div>
+            <div>EMAIL : {user.email}</div>
         </div>
     );
 };
