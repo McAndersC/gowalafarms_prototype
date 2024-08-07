@@ -1,0 +1,19 @@
+.backofficeNavigation {
+
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    
+    a {
+        color : #fff;
+        padding: 20px;
+        text-decoration: none;
+
+        &.active {
+            background-color: darkblue;
+        }
+        
+    }
+
+}
+

@@ -1,0 +1,16 @@
+.backoffice {
+    
+    display: flex;
+    gap : 20px;
+    background-color: antiquewhite;
+ 
+
+    .navpane {
+        background-color: black;
+        min-height: calc(100vh - 60px);
+    }
+
+    .content {
+        width: 100%;
+    }
+}

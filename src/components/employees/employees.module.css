@@ -1,0 +1,17 @@
+
+.employees {
+
+    
+    background-color: azure;
+    padding : 20px;
+
+    .list {
+        
+        /* max-width: 268px; */
+        margin: auto auto;
+        display: flex;
+        gap : 20px;
+        /* flex-direction: column; */
+    
+    }
+}
